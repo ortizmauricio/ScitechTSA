@@ -1,0 +1,92 @@
+/* Stylesheet */
+
+html, 
+body {
+    height: 100%;
+}
+#cover {
+    background: url('watch.JPG') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#cover-caption {
+    width: 100%;
+}
+
+
+#cover-caption1 {
+    width: 100%;
+}
+img {
+    max-width: 100%;
+}
+.problem {
+    display: flex;
+    align-items: center;
+}
+
+.panel-profile .panel-title {
+    margin-bottom: 5px
+}
+
+.panel-profile .panel-heading {
+    height: 150px;
+    background-size: cover
+}
+
+.panel-profile-img {
+    max-width: 100px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
+}
+
+.panel-menu {
+    list-style: none;
+    padding: 0
+}
+
+.panel-menu-item {
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid var( - - colorGrayLighter)
+}
+
+.panel-menu-item:last-child {
+    border-right: 0
+}
+demo {
+    margin-left: 100px;
+    
+}
+.nav .navbar.nav li a {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff
+}
+
+.nav .navbar.nav li a:hover,
+.nav .navbar.nav li a:focus {
+    color: #fed136;
+    outline: 0
+}
+
+.nav.navbar.navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fed136
+}
+
+.nav .navbar.navbar-nav>.active>a:hover,
+.nav .navbar.navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #fec503
+}

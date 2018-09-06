@@ -1,0 +1,303 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Scitech TSA</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main2.css" />
+		<link href="css/bootstrap.min.css" rel="stylesheet"/>
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+              <script type="text/javascript">
+            
+            var word_b = 0;
+				var word_array = ["Welcome to","Bienvenido a",
+                "مرحبا بكم في","Bienvenue à"];
+				var word_elem;
+				function wordNext(){
+					word_b++;
+					word_elem.style.opacity = 0;
+					if(word_b > (word_array.length - 1)){
+						word_b = 0;
+					}
+					setTimeout('wordSlide()',0);
+				}
+				function wordSlide(){
+					word_elem.innerHTML = word_array[word_b];
+					word_elem.style.opacity = 1;
+					setTimeout('wordNext()',2000);
+				}
+             </script>
+
+
+
+
+
+
+
+
+
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Navbar -->
+					<nav id="header" class="navbar  navbar-fixed-top" >
+            <div id="header-container" class="container navbar-container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="brand" class="navbar-brand" href="index.html"><img src="images/tsalogo.PNG" id="logo"></a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                          <li class="dropdown">
+                              <a href="engineering.html" class="dropdown-toggle" data-toggle="dropdown">Engineering <b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                              <li><a href="engineering.html">Engineering</a></li>
+                                <li><a href="staff.html">Staff</a></li>
+                                <li><a href="edd.html">EDD</a></li>
+                                <li><a href="po.html">Projects/Outreach</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                    <ul class="dropdown-menu sub-menu">
+                                      <li><a href="de.html">DE</a></li>
+                                      <li><a href="poe.html">POE</a></li>
+                                      <li><a href="cs.html">CS</a></li>
+                                      <li><a href="cim.html">CIM</a></li>
+                                      <li><a href="cea.html">CEA</a></li>
+                                      <li><a href="ae.html">AE</a></li>
+                                    </ul>
+                                </li>
+                                
+                              </ul>
+                          </li>
+                          <li class="dropdown">
+                              <a href="tsa.html" class="dropdown-toggle" data-toggle="dropdown">TSA<b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                              	<li><a href="tsa.html">Chapter 014</a></li>
+                                <li><a href="activities.html">Activities</a></li>
+                                <li><a href="so.html">Sponsors/Officers</a></li>
+                                <li><a href="s.html">Service & Awards</a></li> 
+                              </ul>
+                          </li>
+                          <li><a href="ar.html">AR</a></li>
+
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div><!-- /.nav-collapse -->
+            </div><!-- /.container -->
+        </nav><!-- /.navbar -->
+
+				<!-- Menu -->
+					
+
+				<!-- Banner -->
+					<section id="banner" >
+						<div class="inner">
+							<header class="major">
+								<h1><span id="word">Welcome to</span> Scitech TSA</h1>
+<script type="text/javascript">
+                            word_elem = document.getElementById("word");
+                            wordSlide();
+                        </script>
+							</header>
+							<div class="content">
+								<h5>Welcome to the Science Academy Technology Student Association website! Feel free to explore our engineering program, which ranges from simple logic and design to diverse model development.</h5>
+								<ul class="actions">
+									<li><a href="engineering.html" class="button scrolly">Get Started</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/danielsonmain.JPG" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="engineering.html" class="link">Engineering</a></h3>
+										<p>The program that defines us</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/tsamain.JPG" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="tsa.html" class="link">TSA</a></h3>
+										<p>A chapter that makes a change</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/armain.JPG" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="ar.html" class="link">AR</a></h3>
+										<p>Visualizing the future of reality</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/teammain.JPG" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="about.html" class="link">About</a></h3>
+										<p>Meet the team behind this creation</p>
+									</header>
+								</article>
+					
+							</section>
+
+					</div>
+
+				
+
+				<!-- Footer -->
+				
+				<!-- Footer -->
+
+							<div id="footer" class="footer">
+							  <div class="container">
+							    <div class="row">
+
+
+							      <div class="col-lg-2 col-md-2">
+							        <h4><a href="index.html">Home</a></h4>
+							       
+							      </div>
+
+
+							      <div class="col-lg-2 col-md-2">
+							        <h4><a href="engineering.html">Engineering</a></h4>
+							        
+							      </div>
+
+							      <div class="col-lg-2 col-md-2">
+							        <h4><a href="tsa.html">TSA</a></h4>
+							        
+							      </div>
+
+							      <div class="col-lg-2 col-md-2">
+							        <h4><a href="ar.html">AR</a></h4>
+							        
+							      </div>
+
+							      <div class="col-lg-2 col-md-2">
+							        <h4><a href="about.html">About</a></h4>
+							        
+							      </div>
+
+							      <div class="col-lg-2 col-md-2">
+							       <a href="https://www.facebook.com/The-Science-Academy-of-South-Texas-281362708059/?hc_ref=SEARCH&fref=nf"> <i class="social fa fa-facebook" aria-hidden="true"></i></a>
+							        <a href="https://twitter.com/Scitech_TSA"><i class="social fa fa-twitter" aria-hidden="true"></i></a>
+							         <a href="https://www.instagram.com/scitechtsa/"><i class="social fa fa-instagram" aria-hidden="true"></i></a>
+							        <ul>
+							          <li><a href="copyright.pdf">Copyrights Form</a></li>
+							          <li><a href="sitemap.html">Sitemap</a></li>
+
+							        </ul>
+							        <br>
+							      </div>
+
+							    </div>
+							  </div>
+
+							</div>
+
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+
+			<script src="assets/js/main.js"></script>
+
+			<script type="text/javascript">
+$(document).ready(function(){
+
+var myNavBar = {
+
+    flagAdd: true,
+
+    elements: [],
+
+    init: function (elements) {
+        this.elements = elements;
+    },
+
+    add : function() {
+        if(this.flagAdd) {
+            for(var i=0; i < this.elements.length; i++) {
+                document.getElementById(this.elements[i]).className += " fixed-theme";
+            }
+            this.flagAdd = false;
+        }
+    },
+
+    remove: function() {
+        for(var i=0; i < this.elements.length; i++) {
+            document.getElementById(this.elements[i]).className =
+                    document.getElementById(this.elements[i]).className.replace( /(?:^|\s)fixed-theme(?!\S)/g , '' );
+        }
+        this.flagAdd = true;
+    }
+
+};
+
+
+myNavBar.init(  [
+    "header",
+    "header-container",
+    "brand"
+]);
+
+/
+function offSetManager(){
+
+    var yOffset = 0;
+    var currYOffSet = window.pageYOffset;
+
+    if(yOffset < currYOffSet) {
+        myNavBar.add();
+    }
+    else if(currYOffSet == yOffset){
+        myNavBar.remove();
+    }
+
+}
+
+window.onscroll = function(e) {
+    offSetManager();
+}
+
+
+offSetManager();
+});
+
+
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+
+	</body>
+</html>
